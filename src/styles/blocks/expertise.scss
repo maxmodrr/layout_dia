@@ -9,7 +9,9 @@
 
   &__title {
     text-align: center;
+
     @include second-title;
+
     font-size: 52px;
     line-height: 78px;
 
@@ -18,6 +20,7 @@
 
   &__content {
     @include my-grid;
+
     gap: 56px 0;
   }
 
@@ -45,12 +48,14 @@
 
   &__subtitle {
     @include second-title;
+
     font-size: 20px;
     line-height: 28px;
   }
 
   &__info {
     @include text-font;
+    
     width: 100%;
 
     @include on-tablet {

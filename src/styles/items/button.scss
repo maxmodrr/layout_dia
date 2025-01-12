@@ -1,5 +1,4 @@
 .button {
-
   text-decoration: none;
   padding: 15px 95px;
   background-color: $bg-button;
@@ -9,6 +8,7 @@
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s;
+  
   @include button-input-font;
 
   &--dark-bg:hover {
@@ -16,7 +16,7 @@
     color: $bg-button;
   }
 
-  &--light-bg:hover{
+  &--light-bg:hover {
     background-color: rgb(38, 42, 107);
   }
 
@@ -24,7 +24,7 @@
     max-width: 290px;
   }
 
-  @include on-desktop{
+  @include on-desktop {
     max-width: 300px;
   }
 }

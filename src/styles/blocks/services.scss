@@ -1,6 +1,7 @@
 .services {
-  padding-block: 120px;
   @include my-grid;
+
+  padding-block: 120px;
   row-gap: 20px;
 
   @include on-tablet {

@@ -12,12 +12,14 @@
 
   &__second-title {
     @include second-title;
+
     text-align: center;
     font-size: 52px;
   }
 
   &__text {
     @include second-main-text;
+    
     color: $second-text-font;
 
     display: flex;

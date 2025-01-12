@@ -1,6 +1,8 @@
 .link {
   position: relative;
+
   @include letter-spacing-3;
+
   color: #fff;
 
   @include hover(transform, scale(1.2));
@@ -20,6 +22,7 @@
     border-radius: 2px;
     bottom: -13px;
     opacity: 0;
+
     @include hover(opacity, 1);
   }
 

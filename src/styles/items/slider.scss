@@ -49,10 +49,10 @@
     }
   }
 
-  #c1:checked ~ .slider__sliders {
+  .slider__input--first:checked ~ .slider__sliders {
     transform: translateX(0);
   }
-  #c2:checked ~ .slider__sliders {
+  .slider__input--second:checked ~ .slider__sliders {
     transform: translateX(-50%);
   }
 
@@ -96,12 +96,14 @@
 
   &__intro {
     @include letter-spacing-3;
+
     color: #fff;
     text-shadow: $text-shadow;
   }
 
   &__subintro {
     @include text-font;
+
     color: #fff;
     text-shadow: $text-shadow;
   }

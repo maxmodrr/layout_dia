@@ -1,5 +1,6 @@
 .input {
   @include button-input-font;
+  
   background-color: $bg-header-footer;
   border-bottom: 1px solid #fff;
   padding-bottom: 16px;

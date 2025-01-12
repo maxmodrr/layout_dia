@@ -20,6 +20,7 @@
   &__send-message,
   &__contact-message {
     @include second-title;
+    
     color: #fff;
     margin-bottom: 50px;
   }
