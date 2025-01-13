@@ -3,7 +3,12 @@
   height: 390px;
   width: 100%;
   left: 0;
+  bottom: -50%;
   overflow: hidden;
+
+  @include on-tablet{
+    bottom: -25%;
+  }
 
   @include on-desktop {
     height: 680px;
