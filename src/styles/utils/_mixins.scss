@@ -44,7 +44,7 @@
 .container {
   @include padding-inline;
 
-  max-width: 1600px;
+  max-width: $design-min-width;
   margin: 0 auto;
 }
 
