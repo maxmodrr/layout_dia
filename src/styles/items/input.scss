@@ -1,0 +1,23 @@
+.input {
+  @include button-input-font;
+
+  background-color: $bg-header-footer;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 16px;
+  width: 100%;
+  color: #fff;
+
+  &:focus {
+    text-decoration: none;
+    outline: none;
+    border-color: $bg-button;
+  }
+
+  &::placeholder {
+    opacity: 0.7;
+  }
+
+  &:focus::placeholder {
+    color: white;
+  }
+}
