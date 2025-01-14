@@ -5,7 +5,7 @@
 
   color: #fff;
 
-  @include hover(transform, scale(1.2));
+  @include hover(transform, scale(1.1));
 
   &--burger-menu {
     @include on-desktop {
@@ -22,12 +22,13 @@
     border-radius: 2px;
     bottom: -13px;
     opacity: 0;
-
-    @include hover(opacity, 1);
+    transform: scale(0);
+    transition: all .3s;
   }
 
   &--text:hover::before {
     opacity: 1;
+    transform: scale(1);
   }
 
   &__icon svg {

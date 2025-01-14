@@ -120,7 +120,10 @@
               </p>
             </div>
 
-            <a href="#footer" class="button button--dark-bg header__button">
+            <a
+              href="#footer"
+              class="button button--dark-bg header__button"
+            >
               Learn More
             </a>
           </div>
@@ -226,6 +229,17 @@
               <img
                 src="./images/logo/air-logo.svg"
                 alt="air-logo"
+                class="image"
+              />
+            </a>
+
+            <a
+              href="#"
+              class="link"
+            >
+              <img
+                src="./images/icons/icon-close.svg"
+                alt="icon-menu"
                 class="image"
               />
             </a>
@@ -621,7 +635,10 @@
         <div class="footer__content">
           <div class="footer__inputs">
             <h2 class="footer__send-message">Send us a message</h2>
-            <form class="footer__block">
+            <form
+              class="footer__block"
+              onsubmit="this.reset(); return false"
+            >
               <input
                 type="email"
                 name="email"
@@ -637,7 +654,7 @@
               <textarea
                 type="text"
                 name="message"
-                class="input"
+                class="input input--textarea"
                 placeholder="Your message"
               ></textarea>
 
